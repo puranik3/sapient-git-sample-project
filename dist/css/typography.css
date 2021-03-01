@@ -1,0 +1,17 @@
+.text-no-underline {
+  text-decoration: none !important;
+}
+
+.text-reset {
+  color: initial !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=typography.css.map */

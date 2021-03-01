@@ -1,0 +1,28 @@
+.btn, .btn-danger, .btn-primary {
+  padding: 0.5em 2em;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #0069d9;
+}
+.btn-primary:hover {
+  background-color: #409cff;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #c81414;
+}
+
+.btn-icon {
+  padding: 8px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=button.css.map */
