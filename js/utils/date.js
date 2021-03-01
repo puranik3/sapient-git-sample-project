@@ -1,8 +1,8 @@
-function formatDate( isoDateStr = '', format = 'standard' ) {
+function formatDate( isoDateStr = '', format = 'std' ) {
     switch( format ) {
         case 'display':
             return new Date( isoDateStr ).toDateString().substr( 0, 18 );
-        case 'standard':
+        case 'std':
         default:
             return isoDateStr.substr( 0, 10 );
     }
