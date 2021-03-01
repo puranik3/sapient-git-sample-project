@@ -1,4 +1,4 @@
-function getFormattedDate( isoDateStr = '', format = 'std' ) {
+function FormatDate( isoDateStr = '', format = 'std' ) {
     switch( format ) {
         case 'display':
             return new Date( isoDateStr ).toDateString().substr( 0, 18 );
@@ -9,5 +9,5 @@ function getFormattedDate( isoDateStr = '', format = 'std' ) {
 }
 
 export {
-    getFormattedDate
+    FormatDate
 };
